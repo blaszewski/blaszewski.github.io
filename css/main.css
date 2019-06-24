@@ -68,6 +68,9 @@ a.nav-name {
 .skills:hover, .hobbies:hover, .socials:hover {
   border-bottom: 2px solid;
 }
+.skills:focus, .hobbies:focus, .socials:focus {
+  border-bottom: 2px solid;
+}
 .socials {
   color: #4a00e0;
 }
@@ -176,7 +179,7 @@ header h1 {
   -webkit-transform: translate3d(4px,4px,0);
   transform: translate3d(4px,4px,0);
 }
-.card:hover {
+.card:hover, .card:focus {
   box-shadow: none;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
