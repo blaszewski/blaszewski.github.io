@@ -13,8 +13,8 @@ let calcQuadratic = (a,b,c) => {
 
     if (delta>0) {
 
-        let x1 = Math.round((-b - Math.sqrt(delta)) / 2 * a);
-        let x2 = Math.round((-b + Math.sqrt(delta)) / 2 * a);
+        let x1 = (-b - Math.sqrt(delta)) / (2 * a);
+        let x2 = (-b + Math.sqrt(delta)) / (2 * a);
 
         output.innerHTML = (`Delta wynosi: ${delta}, <br> x1 = ${x1.toFixed(2)}, <br> x2 = ${x2.toFixed(2)}`);
 
